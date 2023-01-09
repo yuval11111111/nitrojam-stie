@@ -17,7 +17,7 @@ function login() {
     var username = document.getElementById('username').value
     var password = document.getElementById('password').value
     if (username == `YuvalTheCookie` && password == `amaz1111` || username == `NitroJam` && password == `Nitroiscool891` || username == `Oncho` && password == `Ilovebigbootty` || username == `michael` && password == `Sonic.22!` || username == `BPlay` && password == `BPay7` || username == `Scourgko Hedgefox` && password == `scourgkosuper11`) {
-        window.location.href = `index_staff.html`
+        window.location.href = `/index_staff.html`
         document.getElementById('password').value = ''
         document.getElementById('username').value = ``
         document.getElementById('invalid').style.display = 'none'
@@ -33,7 +33,7 @@ function login_hebrew() {
     var username = document.getElementById('username_hebrew').value
     var password = document.getElementById('password_hebrew').value
     if (username == `YuvalTheCookie` && password == `amaz1111` || username == `NitroJam` && password == `Nitroiscool891` || username == `Oncho` && password == `Ilovebigbootty` || username == `michael` && password == `Sonic.22!` || username == `BPlay` && password == `BPay7` || username == `Scourgko Hedgefox` && password == `scourgkosuper11`) {
-        window.location.href = `index_staff_hebrew.html`
+        window.location.href = `/index_staff_hebrew.html`
         document.getElementById('password_hebrew').value = ''
         document.getElementById('username_hebrew').value = ``
         document.getElementById('invalid_hebrew').style.display = 'none'
